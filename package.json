@@ -1,0 +1,24 @@
+{
+  "name": "docker-nodejs",
+  "version": "1.0.0",
+  "description": "Dockerizing custom Nodejs image",
+  "homepage": "https://github.com/rule0x00/Docker-Nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/rule0x00/Docker-Nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rule0x00/Docker-Nodejs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
